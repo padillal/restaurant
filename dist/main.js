@@ -1,0 +1,1 @@
+(()=>{"use strict";(()=>{let t=$("<button></button>").text("Home");t.click((function(){t()})),$("#content").append(t);let n=$("<button></button>").text("Contact");n.click((function(){n()})),$("#content").append(n)})(),(()=>{let t=$("<div id='container'></div>");$("#content").append(t)})()})();
