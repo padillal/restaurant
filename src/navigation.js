@@ -2,17 +2,17 @@ import { home } from './modules/homePage';
 import { contact } from './modules/contactPage';
 
 const navButtons = () => {
-  let home = $("<button></button>").text("Home");
-  home.click(function() {
+  let homeTab = $("<button></button>").text("Home");
+  homeTab.click(function() {
     home();
   });
-  $("#content").append(home);
+  $("#content").append(homeTab);
 
-  let contact = $("<button></button>").text("Contact");
-  contact.click(function() {
+  let contactTab = $("<button></button>").text("Contact");
+  contactTab.click(function() {
     contact();
   });
-  $("#content").append(contact);
+  $("#content").append(contactTab);
 }
 
 export { navButtons }

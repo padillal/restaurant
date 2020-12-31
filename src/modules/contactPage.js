@@ -1,6 +1,6 @@
 const contact = () => {
-  let contactContent = $("<p></p>").text("contact");
-  $("#container").html(contactContent);
+  let contactContent = $("<p></p>").text("This is the contact page");
+  $("#bodyContent").html(contactContent);
 }
 
 export { contact }
